@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: theme('colors.blue.600');
+  --color-primary-hover: theme('colors.blue.700');
+}
+
+@layer base {
+  body {
+    background-color: theme('colors.slate.50');
+    color: theme('colors.slate.900');
+  }
+}
